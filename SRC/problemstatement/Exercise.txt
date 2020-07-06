@@ -1,0 +1,8 @@
+Create repository
+clone repository from git.
+create README.md in repo.
+Add welcome to this repository in README.md file.
+Create .gitignore file to this repo.
+Add .idea, *xml, *iml files to .gitignore folder.
+Push README.md and .gitignore to repo.
+Make changes on github and pull locally.
