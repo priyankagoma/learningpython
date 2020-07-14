@@ -4,7 +4,9 @@
 # print("Hello " + " World")
 
 Greeting = "hello"
-Name = "priyanka"
+Name = input("please enter your name")
+
 
 print(Greeting + ' ' + Name)
-print = input("please enter your name")
+
+
