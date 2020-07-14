@@ -9,3 +9,5 @@ print('My sister\'s dog is very cute but \'oh no he\...\ uh are \'is not well to
 print("""My siter's dog is very cute but \'oh no he \...\ uh are\'is not well today""")
 
 print('My sister\'s dog is very cute but \'oh no he \...\ uh are\'is not well today')
+
+how to use splitstring, tabbed string and escape.
