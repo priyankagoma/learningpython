@@ -1,5 +1,3 @@
-Welcome to README.md file.
+/You will see the content information in this book/
 
-The testing commit.
-
-Testing git pull.
+in file string 2 we will see indexing in sting.
