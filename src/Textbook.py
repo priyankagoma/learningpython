@@ -21,3 +21,11 @@ c = a + b
 d = c - 3
 e = d / 4
 print(e * 12)
+
+r = 30
+s = 6
+
+t = r / s
+u = s + 9
+v = u * 13
+print(v - u)
