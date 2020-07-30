@@ -1,5 +1,6 @@
        #012345678901234567890123456
 test = "prepare yanki you are lovly"
+       #765432109876543210987654321-
 
 print(test[22])
 print(test[20])
@@ -15,3 +16,20 @@ print(test[9])
 print(test[10])
 print(test[11])
 print(test[4])
+print()
+print(test[-5])
+print(test[-15])
+print(test[-16])
+print(test[-7])
+print(test[-6])
+print(test[-13])
+print(test[-12])
+print(test[-11])
+print(test[-8])
+print(test[-10])
+print(test[-27])
+print(test[-26])
+print(test[-23])
+print(test[-17])
+print(test[-16])
+
