@@ -1,6 +1,6 @@
-       #012345678901234567890123456
+#0123456789012345678901234567
 test = "prepare yanki you are lovly"
-       #765432109876543210987654321-
+#765432109876543210987654321-
 
 print(test[22])
 print(test[20])
@@ -32,4 +32,21 @@ print(test[-26])
 print(test[-23])
 print(test[-17])
 print(test[-16])
+
+#/Scling in string/
+
+#0123456789012345678901234567
+test = "prepare yanki you are lovly"
+#765432109876543210987654321-
+
+print(test[8:13])
+print(test[22:27])
+
+print(test[:7] + " " + test[8:13])
+print(test[18:21] + " " + test[14:17] + " " + test[22:27])
+print()
+
+print(test[-15:-14] + " " + test[-5:-2] + test[-7:-6] + " " + test[-13:-10])
+
+
 
