@@ -47,6 +47,8 @@ print(test[18:21] + " " + test[14:17] + " " + test[22:27])
 print()
 
 print(test[-15:-14] + " " + test[-5:-2] + test[-7:-6] + " " + test[-13:-10])
+print()
+print(test[:])
 
 
 
