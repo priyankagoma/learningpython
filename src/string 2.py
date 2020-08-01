@@ -35,9 +35,9 @@ print(test[-16])
 
 #/Scling in string/
 
-#0123456789012345678901234567
+       #0123456789012345678901234567
 test = "prepare yanki you are lovly"
-#765432109876543210987654321-
+       #765432109876543210987654321-
 
 print(test[8:13])
 print(test[22:27])
@@ -49,6 +49,8 @@ print()
 print(test[-15:-14] + " " + test[-5:-2] + test[-7:-6] + " " + test[-13:-10])
 print()
 print(test[:])
+print(test[-5:27])
+print(test[-27:2] + test[12:-14] + test[8:-15] + test[-18:10])
 
 
 
