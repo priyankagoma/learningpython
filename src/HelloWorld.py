@@ -8,5 +8,12 @@ print("The end", "it should be nice", "we will able to make it")
 
 print(1, 2, 3, 4, 5)
 
+print("one two three four five")
+
+
+
+
+
+
 
 

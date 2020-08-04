@@ -19,6 +19,7 @@ b = 13
 
 c = a + b
 d = c - 3
+
 e = d / 4
 print(e * 12)
 

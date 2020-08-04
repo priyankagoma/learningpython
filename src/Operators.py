@@ -21,3 +21,4 @@ print()
 
 for pri in range(18 // 3, 15 // 3 + 6 - 2):
     print(pri)
+
