@@ -11,7 +11,10 @@ so whenever we will run string we have to run it in double coats(") but we can r
 *in string we will see that how we can cut a string in two parts.
  we can run string in a way so that we will get the result in two different lines and alos we can create tabs in string.
 
+//escape characters//
+in this book we will learn that how with the help of slashes (/) we can make or break a string.
 //string2//
 
 in file string 2 we will see indexing in sting.
 in order to go indexing in string we need to use square bracket on the place of the character which we want to come as result.
+ 
