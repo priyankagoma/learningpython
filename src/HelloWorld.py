@@ -1,14 +1,4 @@
-print('hello world')
-
-print(2 + 8)
-print(3 * 5)
-print(6 - 3)
-
-print("The end", "it should be nice", "we will able to make it")
-
-print(1, 2, 3, 4, 5)
-
-print("one two three four five")
+print('hello world') #so we will start with our first code with hello world.
 
 
 
