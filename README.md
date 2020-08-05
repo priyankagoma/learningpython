@@ -4,7 +4,7 @@
 
 this book is all about that how we can run the code.
 
-so whenever we will run string we have to run it in double qoutes (") but we can run integers without double coats. 
+so whenever we will run string we have to run it in double qoutes (") but we can run integers without double qoutes. 
 
 //string//
 
