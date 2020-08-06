@@ -16,7 +16,7 @@ print(""" Number 1     the horse
 print('My sister\'s dog is very cute but \'oh no he\... uh are \is not well today')
 print("""My siter's dog is very cute but 'oh no he \...\ uh are' is not well today""")
 
-# In this book we will learn that how with the help of slashes (/) we can make or break a string.
+# with the help of slashes (/) we can make or break a string.
 
 print('My sister\'s dog is very cute but \'oh \
 no he \...\ uh are\'is not well today')
