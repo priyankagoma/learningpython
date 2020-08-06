@@ -1,10 +1,13 @@
-/You will see the content information in this book/
+/You will see the content information in this README.md book/
 
 //Hello word//
 
-this book is all about that how we can run the code.
+In this book we have run our first code.
 
-so whenever we will run string we have to run it in double qoutes (") but we can run integers without double qoutes. 
+//printexamples//
+
+we will see some examples of numbers, integers, strings and words.
+so whenever we will run string we have to run it in double quotes (") but we can run integers without double quotes.
 
 //string//
 
@@ -14,8 +17,12 @@ variables in string and how to use input function.
 //escape characters//
 
 In this book we will learn that how we can cut a string in two parts, and we can create tabs in string.
-we can runstring in a way so that we will get the result in two different lines.
+we can run string in a way so that we will get the result in two different lines.
 how with the help of slashes (/) we can make or break a string.
+
+//Operators//
+
+In this book we will learn that how we can solve operators, and the use of (for) loop with operators. 
 
 //string2//
 
