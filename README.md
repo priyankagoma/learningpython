@@ -8,12 +8,13 @@ so whenever we will run string we have to run it in double qoutes (") but we can
 
 //string//
 
-In string we will see that how we can cut a string in two parts.
- we can run string in a way so that we will get the result in two different lines and alos we can create tabs in string.
+In string we will see that how we can 
 
 //escape characters//
 
-In this book we will learn that how with the help of slashes (/) we can make or break a string.
+In this book we will learn that how we can cut a string in two parts, and we can create tabs in string.
+we can runstring in a way so that we will get the result in two different lines.
+how with the help of slashes (/) we can make or break a string.
 
 //string2//
 
