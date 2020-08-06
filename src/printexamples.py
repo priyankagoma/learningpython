@@ -1,4 +1,5 @@
  #below are few examples that how we can print numbers.
+
 print(2 + 8)
 print(3 * 5)
 print(6 - 3)
