@@ -1,5 +1,4 @@
-#My Exercise for operators
-
+#My Exercise for operators.
 print(18 + 2 - 5 / 4 * 4)
 
 print((((18 + 2) - 5) / 4) * 4)
