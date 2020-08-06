@@ -8,7 +8,8 @@ so whenever we will run string we have to run it in double qoutes (") but we can
 
 //string//
 
-In string we will see that how we can 
+In string, we will see that how we can use double and single quotes in string.
+variables in string and how to use input function.
 
 //escape characters//
 
