@@ -3,7 +3,7 @@
 a = 18
 b = 3
 
-print(a // b) # we use double slash for integer division.  
+print(a // b) # we use double slash for integer division.
 print(a // b)
 print()
 for i in range(1, 10 // 2):
