@@ -16,7 +16,7 @@ Letters = "a b c d e f g h i j k l m n o p"
 
 print(Letters[:20:1])
 print(Letters[::2])
-print(Letters[1:21:2])
+print(Letters[2:10:2])
 
 # Step in Slicing Backward.
 ##########################
