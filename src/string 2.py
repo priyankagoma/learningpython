@@ -1,7 +1,11 @@
-#0123456789012345678901234567
-test = "prepare yanki you are lovly"
-#765432109876543210987654321-
+# INDEXING AND SLICING#
+#######################
 
+     # 0123456789012345678901234567
+test = "prepare yanki you are lovly"
+      # 765432109876543210987654321-
+#Indexing#
+##########
 print(test[22])
 print(test[20])
 print(test[18])
@@ -16,7 +20,8 @@ print(test[9])
 print(test[10])
 print(test[11])
 print(test[4])
-print()
+# Negative indexing
+###################
 print(test[-5])
 print(test[-15])
 print(test[-16])
@@ -33,24 +38,37 @@ print(test[-23])
 print(test[-17])
 print(test[-16])
 
-#/Scling in string/
-
-       #0123456789012345678901234567
+#SLICING
+##########
+     # 0123456789012345678901234567
 test = "prepare yanki you are lovly"
-       #765432109876543210987654321-
 
+print(test[:])
 print(test[8:13])
 print(test[22:27])
-
 print(test[:7] + " " + test[8:13])
 print(test[18:21] + " " + test[14:17] + " " + test[22:27])
-print()
 
-print(test[-15:-14] + " " + test[-5:-2] + test[-7:-6] + " " + test[-13:-10])
-print()
-print(test[:])
-print(test[-5:27])
-print(test[-27:2] + test[12:-14] + test[8:-15] + test[-18:10])
+# Slicing Backward.
+####################
+         # 01234567890123456789012345
+Letters = "abcdefghijklmnopqrstuvwxyz"
 
+# In order to perform backward slicing we have to put step of (-1) at the end of the code.
+# so that it will gve us the revers value of the string.
+# EX: if z is our start value and b is stop value so code should be [25:0:-1]
+# Also it never includes the place of stop value in that case we can use the blank space
+# so that we can get the last place of value.
+# Ex:
+print(Letters[25::-1])
+print(Letters[::-1])
 
+print(Letters[16:13:-1])
+print(Letters[4::-1])
+print(Letters[25:17:-1])
 
+      # 012345678901234567890123456
+test = "prepare yanki you are lovly"
+      # 765432109876543210987654321-
+
+print(test[26:0:-1])
