@@ -55,20 +55,33 @@ print(test[18:21] + " " + test[14:17] + " " + test[22:27])
 Letters = "abcdefghijklmnopqrstuvwxyz"
 
 # In order to perform backward slicing we have to put step of (-1) at the end of the code.
-# so that it will gve us the revers value of the string.
+# so that it will give us the revers value of the string.
 # EX: if z is our start value and b is stop value so code should be [25:0:-1]
 # Also it never includes the place of stop value in that case we can use the blank space
 # so that we can get the last place of value.
 # Ex:
 print(Letters[25::-1])
 print(Letters[::-1])
-
+#
 print(Letters[16:13:-1])
 print(Letters[4::-1])
 print(Letters[25:17:-1])
+#
+print(Letters[:-9:-1])
 
       # 012345678901234567890123456
 test = "prepare yanki you are lovly"
       # 765432109876543210987654321-
 
 print(test[26:0:-1])
+
+#Slicing Idioms
+###############
+         # 01234567890123456789012345
+Letters = "abcdefghijklmnopqrstuvwxyz"
+         # 65432109876543210987654321-
+print(Letters[-4:])
+print(Letters[-1:])
+print(Letters[-2:-1])
+print(Letters[:1])
+print(Letters[0])
