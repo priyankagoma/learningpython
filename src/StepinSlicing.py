@@ -11,6 +11,7 @@ Seperators = Numbers[1::3]
 print(Seperators)
 Seperators = Numbers[:18:2]
 print(Seperators)
+
           #1234567890123456789012345678901
 Letters = "a b c d e f g h i j k l m n o p"
 
@@ -18,10 +19,19 @@ print(Letters[:20:1])
 print(Letters[::2])
 print(Letters[2:10:2])
 
+Letters = "abcdefghijklmnopqrstuvwxyz"
+         # 54321098765432109876543210-
+Characters = Letters
+print(Characters[1:21:2])
+
 # Step in Slicing Backward.
 ##########################
+# In Step in backward slicing we will step through the sequence in steps of (-)Negative.
+# It will give us the revers value.
+# Ex:
+
 test = "1 2 3 4 5 6 7 8 9 0"
-# 9876543219876543210-
+      # 9876543219876543210-
 print(test[19:0:-2])
 print(test[19::-1])
 
