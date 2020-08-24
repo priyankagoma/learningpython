@@ -37,4 +37,9 @@ print(test[19::-1])
 
 Letters = "abcdefghijklmnopqrstuvwxyz"
          # 54321098765432109876543210-
-print(Letters[25:0:-2])
+Characters = Letters[25:0:-2]
+print(Characters)
+
+Characters = Letters[25:0:-3]
+print(Characters)
+
