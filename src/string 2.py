@@ -1,9 +1,11 @@
 # INDEXING AND SLICING#
 #######################
-
-     # 0123456789012345678901234567
+# In order to do the indexing in string we will put the position of sequence in square bracket in our code.
+# So that we can get the value of the number of sequence.
+# And the position of sequence will always starts from 0 instead of 1.
+#Ex:    012345678901234567890123456
 test = "prepare yanki you are lovly"
-      # 765432109876543210987654321-
+
 #Indexing#
 ##########
 print(test[22])
@@ -22,6 +24,12 @@ print(test[11])
 print(test[4])
 # Negative indexing
 ###################
+# In Negative indexing we have to use the index position from the end of the string.
+# where the last character is at position -1.
+#Ex:
+test = "prepare yanki you are lovly"
+      # 765432109876543210987654321-
+
 print(test[-5])
 print(test[-15])
 print(test[-16])
@@ -40,10 +48,14 @@ print(test[-16])
 
 #SLICING
 ##########
-     # 0123456789012345678901234567
+# In slicing we will put the start and stop value of sequence in string.
+# So that we will get the position of sequence according to the code.
+# As it will give us the position of up to but not included of stop value.
+# We should always put the stop value one step ahead in code from what we want.
+      # 012345678901234567890123456
 test = "prepare yanki you are lovly"
 
-print(test[:])
+print(test[:])           #(start:stop value)
 print(test[8:13])
 print(test[22:27])
 print(test[:7] + " " + test[8:13])
@@ -53,14 +65,15 @@ print(test[18:21] + " " + test[14:17] + " " + test[22:27])
 ####################
          # 01234567890123456789012345
 Letters = "abcdefghijklmnopqrstuvwxyz"
+         # 65432109876543210987654321-
 
 # In order to perform backward slicing we have to put step of (-1) at the end of the code.
 # so that it will give us the revers value of the string.
-# EX: if z is our start value and b is stop value so code should be [25:0:-1]
-# Also it never includes the place of stop value in that case we can use the blank space
-# so that we can get the last place of value.
+# EX: if z is our start value and b is stop, so code should be [25:0:-1]
+# because it never includes the position of stop value, so we will use the blank space
+# to get the last value of position.
 # Ex:
-print(Letters[25::-1])
+print(Letters[25::-1])    #(start:stop:stepvalue)
 print(Letters[::-1])
 #
 print(Letters[16:13:-1])
