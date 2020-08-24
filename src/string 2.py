@@ -61,6 +61,19 @@ print(test[22:27])
 print(test[:7] + " " + test[8:13])
 print(test[18:21] + " " + test[14:17] + " " + test[22:27])
 
+#Slicing with negative numbers.
+###############################
+#In Negative indexing we will count from the end of the string, instead of from the begining.
+#Ex:
+test ="prepare yanki you are lovly"
+     # 765432109876543210987654321-
+
+print(test[-15:-14] + " " + test[-5:-2] + test[-7:-6] + " " + test[-13:-10])
+print(test[-15:-1])
+
+print(test[-5:27])
+print(test[-27:2] + test[12:-14] + test[8:-15] + test[-18:10])
+
 # Slicing Backward.
 ####################
          # 01234567890123456789012345
@@ -73,7 +86,7 @@ Letters = "abcdefghijklmnopqrstuvwxyz"
 # because it never includes the position of stop value, so we will use the blank space
 # to get the last value of position.
 # Ex:
-print(Letters[25::-1])    #(start:stop:stepvalue)
+print(Letters[25::-1])    #(start:stop:step value)
 print(Letters[::-1])
 #
 print(Letters[16:13:-1])
