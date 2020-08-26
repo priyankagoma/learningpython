@@ -1,7 +1,7 @@
 #SEQUENCE IN OPERATORS.
 ######################
 
-#We can not concatenate str to int only string to string.
+#We can not concatinate str to int only string to string.
 #We can also concatinate strings without using (+).
 
 string1 = "Priyanka "
