@@ -14,9 +14,10 @@ print(string1 + string4 + string5)
 print("Priyanka " "Tavishi " "Kanika ")
 
 #Strings can be multiplied by integers.
-#In line 19 Acoording to the BODMAS string ("5") is multiplied with int 4 then its concatinating with str (Hello).
-#In line 20 becouse of the parentheses, evaluates 5+4 to get 9.
+#In line 22 Acoording to the BODMAS string ("5") is multiplied with int 4 then its concatinating with str (Hello).
+#In line 23 becouse of the parentheses, evaluates 5+4 to get 9.
 #So it will repeat the string 9 times.
+
 print("Hello " * 5)
 print("Hello " * 4)
 print("Hello " + 4 * "5")
@@ -24,6 +25,7 @@ print("Hello " * (4 + 5))
 
 #Now we will check one thing is in another.
 #So here, the IN operator evaluates to True or False if the first thing exixts in the second or not.
+
 Butterfly = "Red Blue Green Purple"
 print("Red" in Butterfly)
 print("Blue" in Butterfly)
