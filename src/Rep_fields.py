@@ -1,15 +1,17 @@
-#Replacement Fields
-
-#first we will see the string function.
+#Replacement Fields#
+#1. First we will see the string function.
 #Basically str() function helps us to coerce an integer into a string.
-#EX:
-age = 24
-print("My age is " + str(age) + " years old")
 #As this can be rapidly become tedious
-#So we can use replacement fields and the (dot format) method
+
+#2. So we can use replacement fields and the (dot format) method
 #The value in the parentheses after .format will be replased with the values in our code.
 #So the replacement fields is number inside the curly braces that determines which value to be used.
-#EX:
+
+#EX: 1
+age = 24
+print("My age is " + str(age) + " years old")
+
+#EX: 2.
 print("My age is {0} years old" .format(age))
 
 print("There are {0} days in {1} , {2} , {3} , {4}".format(31, "Jan", "march", "may", "july"))
