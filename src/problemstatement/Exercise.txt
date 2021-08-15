@@ -8,3 +8,14 @@
 6. Add .idea, *xml, *iml files to .gitignore folder.
 7. Push README.md and .gitignore to repo.
 8. Make changes on github and pull locally.
+
+
+
+
+
+git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
+
+
+
+
+
