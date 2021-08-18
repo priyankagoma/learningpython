@@ -1,1 +1,4 @@
 #This is a demo file
+
+print (2 + 8)
+print (6 - 3)
