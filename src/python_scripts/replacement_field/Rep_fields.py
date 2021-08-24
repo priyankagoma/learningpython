@@ -21,7 +21,7 @@ print("I have {0} Children in my home ".format(4))
 print("There are {0} days in a week, {2} days in a month and {1} days in a year."
       .format("seven", "three sixty five", "thirty"))
 
-print("{0} {1} {2}".format("I", "Love", "You"))
+print("{0} {1} {2}".format("I", "adore", "You"))
 
 print("How many hours it will take ")
 

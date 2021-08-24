@@ -42,4 +42,3 @@ print(Characters)
 
 Characters = Letters[25:0:-3]
 print(Characters)
-
